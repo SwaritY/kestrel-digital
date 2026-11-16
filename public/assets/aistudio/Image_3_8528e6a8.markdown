@@ -1,0 +1,222 @@
+---
+name: Slate Brutalist Agency
+colors:
+  surface: '#111319'
+  surface-dim: '#111319'
+  surface-bright: '#373940'
+  surface-container-lowest: '#0c0e14'
+  surface-container-low: '#191b22'
+  surface-container: '#1e1f26'
+  surface-container-high: '#282a30'
+  surface-container-highest: '#33343b'
+  on-surface: '#e2e2eb'
+  on-surface-variant: '#c6c6cd'
+  inverse-surface: '#e2e2eb'
+  inverse-on-surface: '#2e3037'
+  outline: '#909097'
+  outline-variant: '#45464d'
+  surface-tint: '#bfc6e0'
+  primary: '#bfc6e0'
+  on-primary: '#293045'
+  primary-container: '#3f465c'
+  on-primary-container: '#adb4ce'
+  inverse-primary: '#575e75'
+  secondary: '#b8c6ec'
+  on-secondary: '#22304e'
+  secondary-container: '#384666'
+  on-secondary-container: '#a7b5da'
+  tertiary: '#b9c8de'
+  on-tertiary: '#233143'
+  tertiary-container: '#39485a'
+  on-tertiary-container: '#a7b6cc'
+  error: '#ffb4ab'
+  on-error: '#690005'
+  error-container: '#93000a'
+  on-error-container: '#ffdad6'
+  primary-fixed: '#dbe2fd'
+  primary-fixed-dim: '#bfc6e0'
+  on-primary-fixed: '#141b2f'
+  on-primary-fixed-variant: '#3f465c'
+  secondary-fixed: '#d8e2ff'
+  secondary-fixed-dim: '#b8c6ec'
+  on-secondary-fixed: '#0b1b38'
+  on-secondary-fixed-variant: '#384666'
+  tertiary-fixed: '#d4e4fa'
+  tertiary-fixed-dim: '#b9c8de'
+  on-tertiary-fixed: '#0d1c2d'
+  on-tertiary-fixed-variant: '#39485a'
+  background: '#111319'
+  on-background: '#e2e2eb'
+  surface-variant: '#33343b'
+  accent-electric: '#7E8FA8'
+  surface-terminal: '#141721'
+  surface-border: '#252B3B'
+  signal-success: '#4E876A'
+  signal-alert: '#B34A4A'
+typography:
+  display-hero:
+    fontFamily: Space Grotesk
+    fontSize: 56px
+    fontWeight: '700'
+    lineHeight: 60px
+    letterSpacing: -0.04em
+  display-hero-mobile:
+    fontFamily: Space Grotesk
+    fontSize: 36px
+    fontWeight: '700'
+    lineHeight: 40px
+    letterSpacing: -0.03em
+  headline-lg:
+    fontFamily: Space Grotesk
+    fontSize: 36px
+    fontWeight: '700'
+    lineHeight: 44px
+    letterSpacing: -0.03em
+  headline-lg-mobile:
+    fontFamily: Space Grotesk
+    fontSize: 26px
+    fontWeight: '700'
+    lineHeight: 32px
+    letterSpacing: -0.02em
+  headline-md:
+    fontFamily: Space Grotesk
+    fontSize: 24px
+    fontWeight: '600'
+    lineHeight: 32px
+    letterSpacing: -0.02em
+  headline-sm:
+    fontFamily: Space Grotesk
+    fontSize: 18px
+    fontWeight: '600'
+    lineHeight: 24px
+    letterSpacing: -0.01em
+  body-lg:
+    fontFamily: Geist
+    fontSize: 18px
+    fontWeight: '400'
+    lineHeight: 28px
+  body-md:
+    fontFamily: Geist
+    fontSize: 15px
+    fontWeight: '400'
+    lineHeight: 22px
+  body-sm:
+    fontFamily: Geist
+    fontSize: 13px
+    fontWeight: '400'
+    lineHeight: 18px
+  label-md:
+    fontFamily: Geist
+    fontSize: 13px
+    fontWeight: '600'
+    lineHeight: 16px
+    letterSpacing: 0.02em
+  label-sm:
+    fontFamily: Geist
+    fontSize: 11px
+    fontWeight: '600'
+    lineHeight: 14px
+    letterSpacing: 0.06em
+  code-sm:
+    fontFamily: Geist
+    fontSize: 12px
+    fontWeight: '400'
+    lineHeight: 16px
+spacing:
+  gutter: 1.5rem
+  gutter-mobile: 0.75rem
+  margin: 2rem
+  margin-mobile: 1rem
+  space-xs: 0.25rem
+  space-sm: 0.5rem
+  space-md: 1rem
+  space-lg: 1.5rem
+  space-xl: 2.5rem
+  space-2xl: 4rem
+---
+
+## Brand & Style
+
+This design system delivers an uncompromising, high-tech brutalist aesthetic for next-generation digital products and technical agencies. Moving away from generic soft-rounded corporate interfaces, it projects an ethos of surgical precision, raw computational speed, and architectural permanence. 
+
+The visual identity relies on zero-radius edges, high-contrast dark surfaces, and technical, geometric typography. Surfaces emulate dark anodized metals, terminal interfaces, and industrial hardware. The target audience of developers, technical founders, and enterprise architects should experience a direct, distraction-free environment that prioritizes information density, crisp legibility, and unyielding confidence.
+
+## Colors
+
+The palette operates in a disciplined, high-density dark environment centered around `#3F465C` (Slate Blue). Rather than high-vibrancy neons, the tonal range favors industrial hues that evoke technical instrumentation and command-line interfaces.
+
+- **Primary (`#3F465C` - Slate Blue):** Applied to structural action headers, active system indicators, solid button treatments, and prominent technical focal points.
+- **Secondary (`#6C7A9C` - Steel Slate):** Provides visible support for secondary action states, active borders, and mid-tier focal cues.
+- **Tertiary (`#94A3B8` - Cool Ash):** Used for non-urgent metadata, technical readouts, icon strokes, and code annotations.
+- **Neutral (`#0C0E14` - Iron Black):** Forms the foundational environment across layers:
+  - Deep Canvas: `#0C0E14`
+  - Elevated Container / Module: `#141721`
+  - High Surface: `#1B202D`
+  - Sharp Borders & Separators: `#252B3B`
+  - High-Contrast Border Accent: `#3F465C`
+  - High-Emphasis Body Text: `#E6E9F0`
+  - Low-Emphasis Metadata: `#6C7A9C`
+
+## Typography
+
+The typographic hierarchy pairs the geometric, monospaced-adjacent character of Space Grotesk with the hyper-focused clarity of Geist. 
+
+- **Space Grotesk** commands all titles, headers, statistics, and display sections. Its angular shapes and alternate characters bring an intentional hardware/engineering feel. Large display headers use tight negative tracking (`-0.03em` to `-0.04em`) to establish visual solidity.
+- **Geist** provides an unyielding, neutral baseline for dense technical documentation, specs, and form inputs.
+- All structural labels, metadata pills, and breadcrumbs rendered in `label-sm` must appear in uppercase with expanded tracking (`0.06em`) to mirror data terminals.
+
+## Layout & Spacing
+
+The system enforces a structured, architectural 12-column grid anchored by explicit structural lines and uncompromising modularity.
+
+- **Desktop (1024px+):** 12 columns with `1.5rem` gutters and `2rem` outer page margins, max container bounded to `1360px`.
+- **Tablet (768px - 1023px):** 6 or 8 columns with `1rem` gutters and `1.5rem` outer page margins.
+- **Mobile (< 768px):** 4 columns with `0.75rem` gutters and `1rem` outer page margins.
+
+Layout rhythm avoids soft gaps in favor of strict grid lines and boxed containers. Bordered frames define component bounds, and content is packed deliberately to maintain maximum situational awareness on technical dashboards and agency project showcases.
+
+## Elevation & Depth
+
+This design system avoids soft ambient blurs, fuzzy shadows, and rounded floating cards. Depth is conveyed exclusively through tonal layering, crisp high-contrast outlines, and razor-sharp hard offsets.
+
+- **Tonal Hierarchy:** Visual layers stack upward using background luminosity:
+  - Base Canvas: `#0C0E14`
+  - Level 1 Panel: `#141721` with a 1px border of `#252B3B`
+  - Level 2 Focus/Hover: `#1B202D` with a 1px border of `#3F465C`
+- **Brutalist Hard Drop:** When an element requires pop or elevation (active modals, dropdown menus, dragging states), use an opaque hard drop shadow with zero blur radius: `3px 3px 0px 0px #3F465C`.
+- **Micro Grid Lines:** Surfaces do not float in open space; they are compartmentalized by continuous 1px rules using `#252B3B`, grounding every module in a rigid technical frame.
+
+## Shapes
+
+The shape system enforces a strict `roundedness: 0` constraint. Every button, input, module, card, chip, tooltip, and dialog terminates in a right angle (0px border radius). 
+
+Curved lines and circular avatars are strictly prohibited in structural UI. Avatars, status badges, toggles, and image wrappers must adhere to strict square or rectangular silhouettes. This deliberate lack of curvature emphasizes precision engineering, technical architecture, and a modern brutalist edge.
+
+## Components
+
+### Buttons
+- **Primary:** Solid `#3F465C` fill, `#FFFFFF` text (`label-md`), 0px border-radius, minimum height `44px`. Hover state triggers a background shift to `#4E5670` and a hard offset border shadow (`2px 2px 0px 0px #6C7A9C`). Active state shifts position by `1px 1px` with shadow collapsed.
+- **Secondary:** Transparent fill, 1px solid border of `#3F465C`, text `#E6E9F0`. On hover, background shifts to `#141721` with the border brightening to `#6C7A9C`.
+- **Destructive:** Transparent fill with a 1px border of `#B34A4A`, text `#B34A4A`. Hover state fills with `#B34A4A` and inverts text to `#0C0E14`.
+
+### Cards & Data Panels
+- Built with a `#141721` background, sharp 0px corners, and an exact 1px perimeter stroke of `#252B3B`.
+- Header bars within cards feature a bottom border (`1px solid #252B3B`), often containing a technical badge or timestamp in `label-sm`.
+- Hover interaction: The outer border immediately jumps from `#252B3B` to `#3F465C` without transition delays.
+
+### Input Fields
+- Surface `#0C0E14`, 1px border `#252B3B`, 0px border radius, height `44px`, text `#E6E9F0` in `body-md`.
+- Focus state: Border color snaps instantly to `#6C7A9C` accompanied by a 1px solid outer line or hard 2px offset ring (`2px 2px 0px 0px #3F465C`).
+- Placeholder text styled in `#6C7A9C`.
+
+### Checkboxes & Radio Buttons
+- **Checkbox:** Square 16px × 16px box, 0px radius, `#0C0E14` fill, 1px border `#3F465C`. When checked, the box fills solid `#3F465C` with a sharp angular check or solid interior square.
+- **Radio Button:** 16px × 16px square (no circles), `#0C0E14` fill, 1px border `#3F465C`. When active, displays a centered 8px × 8px solid square in `#6C7A9C`.
+
+### Chips & Badges
+- Sharp rectangular silhouettes (0px radius) with `0.25rem` vertical and `0.5rem` horizontal padding.
+- Standard Chip: `#1B202D` fill, 1px border `#252B3B`, text `#94A3B8` in `label-sm` uppercase.
+- Status Indicator: Contains a 4px × 4px square dot (e.g., `#4E876A` for live system status) anchored next to monospace/label copy.
+
+### Code & Terminal Blocks
+- Deep background (`#080A0E`), inset by a 1px border (`#252B3B`), top utility header displaying file path or execution state in `code-sm` typography with Geist.

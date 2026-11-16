@@ -1,0 +1,108 @@
+@import "tailwindcss";
+
+@theme {
+  --font-display: "Space Grotesk", ui-sans-serif, system-ui, sans-serif;
+  --font-sans: "Geist", ui-sans-serif, system-ui, sans-serif;
+}
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+    background-color: #0C0E14;
+    color: #E6E9F0;
+    font-family: var(--font-sans);
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    html {
+      scroll-behavior: auto;
+    }
+  }
+
+  * {
+    border-radius: 0px;
+  }
+
+  h1, h2, h3, h4 {
+    font-family: var(--font-display);
+  }
+}
+
+.brutalist-btn-primary {
+  background-color: #3F465C;
+  color: #FFFFFF;
+  min-height: 44px;
+  transition: background-color 120ms cubic-bezier(0.16, 1, 0.3, 1),
+    transform 120ms cubic-bezier(0.16, 1, 0.3, 1),
+    box-shadow 120ms cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.brutalist-btn-primary:hover:not(:disabled) {
+  background-color: #4E5670;
+  box-shadow: 2px 2px 0px 0px #6C7A9C;
+}
+
+.brutalist-btn-primary:active:not(:disabled) {
+  transform: translate(1px, 1px);
+  box-shadow: none;
+}
+
+.brutalist-btn-secondary {
+  background-color: transparent;
+  border: 1px solid #3F465C;
+  color: #E6E9F0;
+  min-height: 44px;
+  transition: background-color 120ms cubic-bezier(0.16, 1, 0.3, 1),
+    border-color 120ms cubic-bezier(0.16, 1, 0.3, 1),
+    transform 120ms cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.brutalist-btn-secondary:hover:not(:disabled) {
+  background-color: #141721;
+  border-color: #6C7A9C;
+}
+
+.brutalist-btn-secondary:active:not(:disabled) {
+  transform: translate(1px, 1px);
+}
+
+.brutalist-card {
+  background-color: #141721;
+  border: 1px solid #252B3B;
+  transition: border-color 120ms cubic-bezier(0.16, 1, 0.3, 1),
+    background-color 120ms cubic-bezier(0.16, 1, 0.3, 1),
+    box-shadow 120ms cubic-bezier(0.16, 1, 0.3, 1),
+    transform 120ms cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.brutalist-card:hover {
+  border-color: #3F465C;
+  background-color: #1B202D;
+  box-shadow: 3px 3px 0px 0px #3F465C;
+}
+
+.brutalist-input {
+  background-color: #0C0E14;
+  border: 1px solid #252B3B;
+  color: #E6E9F0;
+  min-height: 44px;
+}
+
+.brutalist-input::placeholder {
+  color: #6C7A9C;
+}
+
+.brutalist-input:focus {
+  outline: none;
+  border-color: #6C7A9C;
+  box-shadow: 2px 2px 0px 0px #3F465C;
+}
+
+.brutalist-input-error {
+  border-color: #B34A4A;
+}
+
+.brutalist-input-error:focus {
+  border-color: #ffb4ab;
+  box-shadow: 2px 2px 0px 0px #B34A4A;
+}
