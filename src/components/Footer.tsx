@@ -86,8 +86,8 @@ export const Footer: React.FC<FooterProps> = ({ onNavigate }) => {
         </div>
 
         <div className="pt-6 flex flex-col sm:flex-row items-start sm:items-center justify-between gap-4 text-[12px] text-[#6C7A9C]">
-          <span>&copy; 2026 Kestrel Digital LLC. All rights reserved.</span>
-          <span>hello@kestreldigital.co</span>
+            <span>&copy; 2026 Kestrel Digital LLC. All rights reserved.</span>
+            <span>Designed &amp; Built by Swarit Yadav &copy; 2026</span>
         </div>
       </div>
     </footer>
